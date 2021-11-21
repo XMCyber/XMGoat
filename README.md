@@ -1,5 +1,5 @@
 # XMGoat 
-<img src="https://github.com/XMCyber/XMGoat/blob/main/xmgoat.png" width="100" height="100">
+<img src="https://github.com/XMCyber/XMGoat/blob/main/xmgoat.png" width="400" height="400">
 
 ## Overview
 XM Goat, is XM Cyber terraform templates that can be used for educational purposes of Azure. 
