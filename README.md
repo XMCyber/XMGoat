@@ -1,5 +1,5 @@
 # XMGoat 
-![XMGoat](./xmgoat.png)
+![XMGoat](./xmgoat.png){:height="100x" width="100px"}
 
 ## Overview
 XM Goat, is XM Cyber terraform templates that can be used for educational purposes of Azure. 
