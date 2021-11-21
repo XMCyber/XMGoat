@@ -46,7 +46,7 @@ For Service Principals, use application_id.value and application_secret.value.
 
 For Users, use username.value and password.value.
 
-## Cleaning out
+## Cleaning up
 After completing the scenario, run the following command in order to clean all the resources created in your tenant
 ```
 $ az login
