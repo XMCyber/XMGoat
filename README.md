@@ -2,9 +2,17 @@
 <img src="https://github.com/XMCyber/XMGoat/blob/main/xmgoat.png" width="400" height="400">
 
 ## Overview
-XM Goat, is XM Cyber terraform templates that can be used for educational purposes of Azure. 
+XM Goat is composed of XM Cyber terraform templates that help you learn about common Azure security issues. Each template is a vulnerable environment, with some significant misconfigurations. Your job is to attack and compromise the environments.
 
-By using XM Goat, you will learn about common Azure security issues.
+Here’s what to do for each environment:
+
+Run installation and then get started.
+
+With the initial user and service principal credentials, attack the environment based on the scenario flow (for example, XMGoat/scenarios/scenario_1/scenario1_flow.png).
+
+If you need help with your attack, refer to the solution (for example, XMGoat/scenarios/scenario_1/solution.md).
+
+When you’re done learning the attack, clean up.
 
 ## Requirements
 * Azure tenant
@@ -13,28 +21,30 @@ By using XM Goat, you will learn about common Azure security issues.
 * Azure User with Owner permissions on Subscription and Global Admin privileges in AAD
 
 ## Installation
+Run these commands:
 ```
 $ az login
 $ git clone https://github.com/XMCyber/XMGoat.git
 $ cd XMDGoat
 $ cd scenarios
-$ cd scenario_<X> -- Where <X> represents the scenario number you want to complete
-$ terraform init
-$ terraform plan -out <FileName> -- Where <FileName> represents an output file
-Fill all the required parameters for the terraform tempalte
-$ terraform apply <FileName>
+$ cd scenario_<SCENARIO>
 ```
+Where <SCENARIO> is the scenario number you want to complete
+```
+$ terraform init
+$ terraform plan -out <FILENAME>
+$ terraform apply <FILENAME>
+```
+Where <FILENAME> is the name of the output file
 
-## How to Start?
-In order to get the initial user / service principal credential run the following query :
+## Get started
+To get the initial user and service principal credentials, run the following query:
 ```
 $ terraform output --json
 ```
-For Service Principals, use the application_id.value and application_secret.value
+For Service Principals, use application_id.value and application_secret.value.
 
-For Users, use username.value and password.value
-
-
+For Users, use username.value and password.value.
 
 ## Cleaning out
 After completing the scenario, run the following command in order to clean all the resources created in your tenant
@@ -42,6 +52,9 @@ After completing the scenario, run the following command in order to clean all t
 $ az login
 $ cd XMGoat
 $ cd scenarios
-$ cd scenario_<X> -- Where <X> represents the scenario number you completed
+$ cd scenario_<SCENARIO>
+```
+Where <SCENARIO> is the scenario number you want to complete
+```
 $ terraform destroy
 ```
