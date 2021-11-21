@@ -1,4 +1,6 @@
 # XMGoat 
+[![XMGoat](./xmgoat.png)
+
 ## Overview
 XM Goat, is XM Cyber terraform templates that can be used for educational purposes of Azure. 
 
