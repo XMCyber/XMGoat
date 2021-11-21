@@ -25,7 +25,7 @@ Fill all the required parameters for the terraform tempalte
 $ terraform apply <FileName>
 ```
 
-## How to Start ?
+## How to Start?
 In order to get the initial user / service principal credential run the following query :
 ```
 $ terraform output --json
