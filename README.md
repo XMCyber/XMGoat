@@ -15,7 +15,7 @@ By using XM Goat, you will learn about common Azure security issues.
 ## Installation
 ```
 $ az login
-$ git clone https://blablalba.com
+$ git clone https://github.com/XMCyber/XMGoat.git
 $ cd XMDGoat
 $ cd scenarios
 $ cd scenario_<X> -- Where <X> represents the scenario number you want to complete
