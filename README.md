@@ -6,13 +6,13 @@ XM Goat is composed of XM Cyber terraform templates that help you learn about co
 
 Here’s what to do for each environment:
 
-Run installation and then get started.
+1. Run installation and then get started.
 
-With the initial user and service principal credentials, attack the environment based on the scenario flow (for example, XMGoat/scenarios/scenario_1/scenario1_flow.png).
+2. With the initial user and service principal credentials, attack the environment based on the scenario flow (for example, XMGoat/scenarios/scenario_1/scenario1_flow.png).
 
-If you need help with your attack, refer to the solution (for example, XMGoat/scenarios/scenario_1/solution.md).
+3. If you need help with your attack, refer to the solution (for example, XMGoat/scenarios/scenario_1/solution.md).
 
-When you’re done learning the attack, clean up.
+4. When you’re done learning the attack, clean up.
 
 ## Requirements
 * Azure tenant
@@ -27,15 +27,15 @@ $ az login
 $ git clone https://github.com/XMCyber/XMGoat.git
 $ cd XMDGoat
 $ cd scenarios
-$ cd scenario_<SCENARIO>
+$ cd scenario_<\SCENARIO>
 ```
-Where <SCENARIO> is the scenario number you want to complete
+Where <\SCENARIO> is the scenario number you want to complete
 ```
 $ terraform init
-$ terraform plan -out <FILENAME>
-$ terraform apply <FILENAME>
+$ terraform plan -out <\FILENAME>
+$ terraform apply <\FILENAME>
 ```
-Where <FILENAME> is the name of the output file
+Where <\FILENAME> is the name of the output file
 
 ## Get started
 To get the initial user and service principal credentials, run the following query:
@@ -52,9 +52,9 @@ After completing the scenario, run the following command in order to clean all t
 $ az login
 $ cd XMGoat
 $ cd scenarios
-$ cd scenario_<SCENARIO>
+$ cd scenario_<\SCENARIO>
 ```
-Where <SCENARIO> is the scenario number you want to complete
+Where <\SCENARIO> is the scenario number you want to complete
 ```
 $ terraform destroy
 ```
