@@ -25,7 +25,7 @@ Run these commands:
 ```
 $ az login
 $ git clone https://github.com/XMCyber/XMGoat.git
-$ cd XMDGoat
+$ cd XMGoat
 $ cd scenarios
 $ cd scenario_<\SCENARIO>
 ```
