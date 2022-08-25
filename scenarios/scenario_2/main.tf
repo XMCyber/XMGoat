@@ -166,5 +166,4 @@ output "application_id"{
 }
 output "application_secret" {
   value = azuread_application_password.secret
-  sensitive = true
 }
