@@ -1,5 +1,5 @@
 # XMGoat 
-<img src="https://github.com/XMCyber/XMGoat/blob/main/xmgoat.png" width="400" height="400">
+<img src="https://github.com/XMCyber/XMGoat/blob/main/xmgoat_new.png" width="400" height="400">
 
 ## Overview
 XM Goat is composed of XM Cyber terraform templates that help you learn about common Azure security issues. Each template is a vulnerable environment, with some significant misconfigurations. Your job is to attack and compromise the environments.
